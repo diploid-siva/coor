@@ -28,12 +28,13 @@ pip install biopython pandas
 
 **### How to Run?**
 
-Download coor.py and keep it in your folder of interest
+**Download coor.py and keep it in your folder of interest and run the following commands**
 
-```bash
 python3 coor.py -r ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGAGGAGAAGGC -t MAIVMGR
 
 For help
 
+python3 coor.py -h
 ```bash
-python3 coor.py -h 
+
+Alternatively, download .ipynb file and run it in Google colab
