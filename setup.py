@@ -1,15 +1,15 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="coor",
     version="1.0.0",
     author="Prakash Sivakumar",
     description="Codon Optimization using Ordered Reshuffling (COOR)",
-    packages=find_packages(),
+    py_modules=["coor"], # Specify the single .py file as a module
     install_requires=["biopython", "pandas"],
     entry_points={
         'console_scripts': [
-            'coor = coor.coor:main'
+            'coor = coor:main' # Point directly to the coor module (coor.py)
         ]
     },
     classifiers=[
