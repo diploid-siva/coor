@@ -35,6 +35,5 @@ python3 coor.py -r ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGAGGAGAAGGC -t MAIVMGR
 For help
 
 python3 coor.py -h
-```bash
 
-Alternatively, download .ipynb file and run it in Google colab
+Alternatively, download .ipynb file and run it in Google colab and follow instructions
