@@ -26,10 +26,14 @@ Install requirements via pip:
 ```bash
 pip install biopython pandas
 
-### How to Run?
+**### How to Run?**
+
 Download coor.py and keep it in your folder of interest
+
 ```bash
 python3 coor.py -r ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGAGGAGAAGGC -t MAIVMGR
+
 For help
+
 ```bash
 python3 coor.py -h 
